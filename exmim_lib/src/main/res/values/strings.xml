@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">exmim_lib</string>
+    <string name="notifyForeground">exmim</string>
+</resources>

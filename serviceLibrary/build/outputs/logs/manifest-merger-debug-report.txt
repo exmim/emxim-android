@@ -1,0 +1,45 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml:1:1-25:12
+	package
+		ADDED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml:1:11-53
+		INJECTED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml
+		INJECTED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml:2:5-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml:7:22-65
+application
+ADDED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml:9:5-23:19
+service#info.mqtt.android.service.MqttService
+ADDED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml:11:9-73
+	android:name
+		ADDED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml:11:18-70
+uses-sdk
+INJECTED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml
+INJECTED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml
+INJECTED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml
+INJECTED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml
+		ADDED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml
+		INJECTED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml
+		ADDED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml
+		INJECTED from /Users/skipper/AndroidStudioProjects/exmim/serviceLibrary/src/main/AndroidManifest.xml
