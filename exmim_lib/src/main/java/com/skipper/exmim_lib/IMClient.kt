@@ -16,6 +16,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import org.eclipse.paho.client.mqttv3.*
+import timber.log.Timber
 import java.util.*
 import java.util.concurrent.ConcurrentHashMap
 import kotlin.properties.Delegates
@@ -45,6 +46,7 @@ interface IMClient {
         fun init(appContext: Context, mainActivity: Class<*>) {
             mAppContext = appContext
             mMainActivity = mainActivity
+            Timber.plant(Timber.DebugTree())
         }
         fun get(url: String): IMClient {
             return if (clientCache.containsKey(url)) {
