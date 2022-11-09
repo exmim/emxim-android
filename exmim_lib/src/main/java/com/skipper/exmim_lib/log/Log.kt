@@ -1,13 +1,11 @@
 package com.skipper.exmim_lib.log
 
-import android.util.Log
-
-private const val IM_TAG = "EXMIM"
+import timber.log.Timber
 
 fun logd(message: String?) {
-    Log.d(IM_TAG, message ?: "")
+    Timber.d(message)
 }
 
 fun loge(message: String?) {
-    Log.e(IM_TAG, message ?: "")
+    Timber.e(message)
 }
